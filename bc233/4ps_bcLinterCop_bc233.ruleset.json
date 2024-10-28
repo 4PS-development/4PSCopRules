@@ -8,6 +8,11 @@
             "justification": "Do not use an Object ID for properties or variables declaration. Use the object name instead."
         },
         {
+            "id": "LC0010",
+            "action": "Info",
+            "justification": "Currently we do get warnings if cyclometic complexity is beyond threshold of 8. We could change the threshold, but this needs to be done in each extension project. For now we rather would want this to be just an info message."
+        },
+        {
             "id": "LC0015",
             "action": "Hidden",
             "justification": "The application object is not covered by any permission set in the extension. This is not required for our page objects."

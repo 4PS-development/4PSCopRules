@@ -1,0 +1,14 @@
+{
+    "name": "4PS general ruleset BC26.2",
+    "description": "These rules must be respected by all the AL code written within the company.",
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/4PS-development/4PSCopRules/main/bc262/4ps_msCodeCop_bc262.ruleset.json"
+        },
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/4PS-development/4PSCopRules/main/bc262/4ps_bcLinterCop_bc262.ruleset.json"
+        }
+    ]
+}

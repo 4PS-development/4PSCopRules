@@ -1,0 +1,56 @@
+{
+    "name": "4PS ruleset MS AppSourceCop BC23.3",
+    "description": "AppSourceCop rules for 4PS extensions.",
+    "rules": [
+        {
+            "id": "AS0059",
+            "action": "Warning",
+            "justification": "Reserved database tables are read-only in a multi-tenant environment."
+        },
+        {
+            "id": "AS0053",
+            "action": "Warning",
+            "justification": "App has target set as OnPrem; must be Cloud or Extension for AppSource."
+        },
+        {
+            "id": "AS0051",
+            "action": "Warning",
+            "justification": "Mandatory manifest properties missing in app.json."
+        },
+        {
+            "id": "AS0014",
+            "action": "Warning",
+            "justification": "Missing number range in app.json."
+        },
+        {
+            "id": "AS0013",
+            "action": "Warning",
+            "justification": "Field number error; fix by adjusting number range or moving field."
+        },
+        {
+            "id": "AS0011",
+            "action": "Warning",
+            "justification": "Missing required affix/suffix for AppSource."
+        },
+        {
+            "id": "AS0054",
+            "action": "Warning",
+            "justification": "Missing mandatory Suffix/Prefix in AppSourceCop.json."
+        },
+        {
+            "id": "AS0100",
+            "action": "Warning",
+            "justification": "'application' property missing in app.json. Needs immediate attention for manual review."
+        },
+        {
+            "id": "AS0084",
+            "action": "Warning",
+            "justification": "Per-Tenant number range set. Needs immediate attention for manual review."
+        },
+        {
+            "id": "AS0052",
+            "action": "Warning",
+            "justification": "Missing mandatory manifest property url. Needs immediate attention for manual review."
+        }
+    ]
+}

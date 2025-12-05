@@ -48,59 +48,9 @@
             "justification": "Action 'Company Email Employee 4PS' must have a value for the ApplicationArea property so that they are visible to users. From runtime 11.0, you can specify on the application object level the ApplicationArea to use as default for all its controls and actions."
         },
         {
-            "id": "AS0075",
-            "action": "Warning",
-            "justification": "Obsolete tag must be set in the ObsoleteTag property."
-        },
-        {
-            "id": "AS0079",
-            "action": "Warning",
-            "justification": "An affix is required for procedures defined in extension objects."
-        },
-        {
-            "id": "AS0081",
-            "action": "Warning",
-            "justification": "InternalsVisibleTo should not be used as a security feature."
-        },
-        {
-            "id": "AS0094",
-            "action": "Warning",
-            "justification": "The extension name length must not exceed the specified limit."
-        },
-        {
-            "id": "AS0098",
-            "action": "Warning",
-            "justification": "An affix is required for variables defined in extension objects."
-        },
-        {
             "id": "AS0100",
             "action": "Warning",
             "justification": "'application' property missing in app.json. Needs immediate attention for manual review."
-        },
-        {
-            "id": "AS0103",
-            "action": "Warning",
-            "justification": "Tables that have been published must not be deleted."
-        },
-        {
-            "id": "AS0110",
-            "action": "Warning",
-            "justification": "The compilation target of the extension must be a value that is allowed in a multi-tenant SaaS environment."
-        },
-        {
-            "id": "AS0111",
-            "action": "Warning",
-            "justification": "Adding new properties to controls with fixed ordinal values is not allowed."
-        },
-        {
-            "id": "AS0113",
-            "action": "Warning",
-            "justification": "Entitlements cannot be defined in extensions."
-        },
-        {
-            "id": "AS0130",
-            "action": "Warning",
-            "justification": "The number of dependencies specified in the manifest must not exceed the allowed limit."
         }
     ]
 }

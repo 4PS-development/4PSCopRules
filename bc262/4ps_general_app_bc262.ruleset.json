@@ -8,6 +8,10 @@
         },
         {
             "action": "Default",
+            "path": "https://raw.githubusercontent.com/4PS-development/4PSCopRules/main/bc262/4ps_msAppSourceCop_bc262.ruleset.json"
+        },
+        {
+            "action": "Default",
             "path": "https://raw.githubusercontent.com/4PS-development/4PSCopRules/main/bc262/4ps_bcLinterCop_bc262.ruleset.json"
         }
     ]

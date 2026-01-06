@@ -4,7 +4,7 @@
     "rules": [
         {
             "id": "AS0011",
-            "action": "Warning",
+            "action": "Hidden",
             "justification": "Missing required affix/suffix for AppSource."
         },
         {

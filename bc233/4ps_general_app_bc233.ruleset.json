@@ -1,6 +1,7 @@
 {
     "name": "4PS general ruleset BC23.3",
     "description": "These rules must be respected by all the AL code written within the company.",
+    "enableExternalRulesets": true,
     "includedRuleSets": [
         {
             "action": "Default",

@@ -13,7 +13,7 @@
             "justification": "The use of a text constant or label for format string in StrSubstNo is not required for a test app."
         },
         {
-            "id": "LC0068",
+            "id": "AC0031",
             "action": "Hidden",
             "justification": "In test environment permission on table data is not a problem."
         }

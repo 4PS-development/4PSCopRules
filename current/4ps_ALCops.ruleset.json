@@ -1,0 +1,31 @@
+{
+    "name": "4PS ALCops ruleset",
+    "description": "These rules must be respected by all the AL code written within the company.",
+    "rules": [
+        {
+            "id": "LC0003",
+            "action": "Hidden",
+            "justification": "Previously LC0003. Do not use an Object ID for properties or variables declaration. Use the object name instead."
+        },
+        {
+            "id": "LC0008",
+            "action": "Info",
+            "justification": "Previously LC0010 (maintainability index part). Currently we do get warnings if the maintainability index is beyond the threshold. We could change the threshold, but this needs to be done in each extension project. For now we rather would want this to be just an info message."
+        },
+        {
+            "id": "LC0010",
+            "action": "Info",
+            "justification": "Previously LC0010 (cyclomatic complexity part). Currently we do get warnings if cyclomatic complexity is beyond threshold of 8. We could change the threshold, but this needs to be done in each extension project. For now we rather would want this to be just an info message."
+        },
+        {
+            "id": "AC0010",
+            "action": "Hidden",
+            "justification": "Previously LC0015. The application object is not covered by any permission set in the extension. This is not required for our page objects."
+        },
+        {
+            "id": "AC0011",
+            "action": "Hidden",
+            "justification": "Previously LC0016. Caption is missing. Suppressed because of too many false warnings."
+        }
+    ]
+}

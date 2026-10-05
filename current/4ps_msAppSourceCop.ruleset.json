@@ -6,11 +6,6 @@
             "id": "AS0011",
             "action": "Hidden",
             "justification": "Missing required affix/suffix for AppSource."
-        },
-        {
-            "id": "AS0051",
-            "action": "Warning",
-            "justification": "Mandatory manifest properties missing in app.json."
         }
     ]
 }
